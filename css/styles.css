@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(52, 32, 32) 16.62%,  rgb(168, 136, 104) 85.16%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logo{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item{
+    font-family: 'Righteous', cursive;
+    color: rgb(245, 234, 208);
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.cabecalho-item:hover{
+    color: rgb(81, 78, 75);
+}
+
+.principal{
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgb(245, 234, 208) ;
+}
+
+#orcamento{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+}
+
+.orcamento-texto{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 135px;
+    gap: 32px;
+}
+
+.orcamento-texto-1{
+    font-family: 'Righteous', cursive;
+    color: rgb(245, 234, 208);
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.orcamento-texto-2{
+    font-family: 'sarala';
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(245, 234, 208);
+    font-weight: 50;
+}
+
+.orcamento-botao{
+    background-color: rgb(245, 234, 208);
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'sarala';
+    font-size: 20px;
+}
+
+.orcamento-botao:hover{
+    background-color: rgb(103, 100, 96);
+    color: rgb(159, 127, 127);
+}
+
+
+.orcamento-img{
+    border-radius: 20px;
+    width: 600px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+   
+}
+
+#artista{
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 32px 200px;
+    border-top: solid 1px rgb(245, 234, 208) ;
+    border-top-style: dotted;  
+}
+
+.artista-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgb(245, 234, 208);
+    width: 600px;
+
+}
+
+.artista-texto-titulo{
+    font-family: 'Righteous', cursive;
+    color: rgb(245, 234, 208);
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.artista-texto-1{
+    font-family: 'sarala';
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(245, 234, 208);
+    font-weight: 100;
+}
+
+.artista-img{
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#se-inspire{
+    color: rgb(245, 234, 208);
+    padding: 32px 200px;
+    border-top: solid 1px rgb(245, 234, 208) ;
+    border-top-style: dotted;  
+}
+
+.se-inspire-texto-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.se-inspire-titulo{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: rgb(245, 234, 208);
+    font-weight: 300;
+    font-size: 40px;   
+}
+
+.se-inspire-texto-2{
+    font-family: 'sarala';
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(245, 234, 208);
+    font-weight: 100;
+    height: 60px;    
+}
+
+.se-inspire-imgdiv{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#insta{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.se-inspire-img{
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);   
+}
+
+.insta-texto{
+    font-family: 'sarala';
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(245, 234, 208);
+    font-weight: 100;
+}
+
+.insta-img{
+    height: 40px;
+}
+
+.insta-botao{
+    background-color: rgb(245, 234, 208);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'sarala';
+    font-size: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.insta-botao:hover{
+    background-color: rgb(103, 100, 96);
+    color: rgb(159, 127, 127);
+}
+
+.endereco{
+    text-align: center;
+    font-family: 'sarala';
+    font-size: 15px;
+    color: rgb(245, 234, 208);
+}
+
+.rodape{
+    padding: 20px;
+    border-top: solid 1px rgb(245, 234, 208) ;
+}
+
+.rodape-img{
+    width: 150px;
+    display:block;
+    margin: 0 auto;
+}
+
+
+
+
+/*html{
+    font-family: Verdana;
+    background-color: rgb(190, 45, 39);
+}
+.container{
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: #fff;
+}
+
+.header{
+    text-align: center;
+    height: 200px;
+}
+
+.container-quote{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    position: relative;
+}
+
+.quote-image{
+    display:flex;
+    width: 800px;
+    padding: 10px;
+    vertical-align: auto;
+    position:absolute;
+}
+
+.tattoo-images{
+    
+    display: inline-block;
+}
+
+.artist{
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    position: relative;
+
+}
+
+.artist-text{
+    width: 60%;
+    
+}
+
+.artist-image{
+    top: 20px;
+    left: 800px;
+    padding: 20px 50px;
+    position:absolute;
+}*/
